@@ -1,9 +1,9 @@
 import EvetnsList from '../components/events/Events-list'
 import {getFeaturedEvents} from '../dummy-data'
-function index() {
+
+function index(props) {
   return (
     <div>
-      <h1>Main page</h1>
       <EvetnsList items={getFeaturedEvents()} />
     
     </div>
