@@ -4,6 +4,7 @@ import {getFeaturedEvents} from '../dummy-data'
 function index(props) {
   return (
     <div>
+      
       <EvetnsList items={getFeaturedEvents()} />
     
     </div>
